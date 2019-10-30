@@ -1,0 +1,27 @@
+img{
+    width:100%
+}
+.descriptionBlock{
+    margin: 0 25px 25px ;
+    display: grid;
+    width: 80%;
+    grid-template-areas: "h h" "n c";
+
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+   
+}
+
+
+.descriptionBlock img {
+    height: 150px;
+    width: 150px;
+    margin: 20px
+    
+}
+.descriptionBlock div {
+  
+    margin: 20px;
+    grid-area: c;
+    
+ }
